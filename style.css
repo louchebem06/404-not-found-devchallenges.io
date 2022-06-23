@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	max-width: 1440px;
+	margin: auto;
+}
+
+header {
+	font-family: 'Inconsolata';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 25px;
+	letter-spacing: -0.08em;
+	text-transform: uppercase;
+	color: #333333;
+	margin-top: 3%;
+	margin-left: 5%;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: absolute;
+	top: 25%;
+	gap: 10%;
+}
+
+.content .first img {
+	display: block;
+	max-width: 500px;
+}
+
+.content .second {
+	display: flex;
+	flex-direction: column;
+}
+
+.content .second h1 {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 95px;
+	letter-spacing: -0.035em;
+	color: #333333;
+	max-width: 586px;
+	margin-bottom: 10%;
+}
+
+.content .second p {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: -0.035em;
+	color: #4F4F4F;
+	max-width: 381px;
+	margin-bottom: 10%;
+}
+
+.content .second .btn {
+	display: block;
+	background-color: black;
+	width: 216px;
+	height: 68px;
+}
+
+.content .second .btn p {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: -0.035em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 68px;
+}
+
+footer {
+	position: fixed;
+	bottom: 2%;
+	left: 0;
+	display: block;
+	width: 100%;
+}
+
+footer, footer a{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #BDBDBD;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: underline;
+}
+
+@media (max-width: 1250px) {
+	.content .second h1 {
+		font-size: 48px;
+	}
+
+	.content .second p {
+		font-size: 18px;
+	}
+
+	.content {
+		flex-direction: column;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.content .first, .content .second {
+		max-width: 375px;
+	}
+
+	.content .first img {
+		width: 100%;
+		max-width: 500px;
+		margin: auto;
+	}
+}
