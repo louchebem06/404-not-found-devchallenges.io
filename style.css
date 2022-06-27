@@ -36,9 +36,14 @@ header {
 	gap: 10%;
 }
 
+.content .first {
+	width: 50%;
+}
+
 .content .first img {
 	display: block;
-	max-width: 500px;
+	width: 100%;
+	max-width: 550px;
 }
 
 .content .second {
@@ -110,7 +115,7 @@ footer a {
 	text-decoration: underline;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 850px) {
 	.content .second h1 {
 		font-size: 48px;
 	}
@@ -124,6 +129,7 @@ footer a {
 		position: relative;
 		align-items: center;
 		justify-content: center;
+		margin-top: 10%;
 	}
 
 	.content .first, .content .second {
@@ -131,8 +137,6 @@ footer a {
 	}
 
 	.content .first img {
-		width: 100%;
-		max-width: 500px;
 		margin: auto;
 	}
 }
