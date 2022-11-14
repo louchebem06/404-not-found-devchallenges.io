@@ -11,7 +11,7 @@
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
       Challenge
     </a> |
-    <a href="http://jolcwij.cluster029.hosting.ovh.net/devchallenge.io/404.html">
+    <a href="https://404.bryanledda.fr/">
        Demo
     </a>
   </h3>
