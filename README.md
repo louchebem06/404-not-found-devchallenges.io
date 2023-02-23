@@ -11,7 +11,7 @@
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
       Challenge
     </a> |
-    <a href="https://404.bryanledda.fr/">
+    <a href="https://louchebem06.github.io/404-not-found-devchallenges.io/404">
        Demo
     </a>
   </h3>
